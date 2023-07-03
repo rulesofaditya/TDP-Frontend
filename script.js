@@ -1,3 +1,22 @@
+
+
+
+const express = require("express")
+
+const app = express();
+
+
+app.get("/",function(request, reponse){
+    reponse.send(index.html)
+})
+
+app.listen(3000, function(){
+    console.log("server started at port 3000")
+})
+
+
+
+
 function name(){
 
     console.log('Adi');
